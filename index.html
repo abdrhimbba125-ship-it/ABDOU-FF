@@ -1,0 +1,104 @@
+
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>ABDOU FF</title>
+<style>
+*{box-sizing:border-box}
+body{
+  margin:0;
+  font-family:Arial,sans-serif;
+  background:#10121b;
+  color:white;
+}
+header{
+  text-align:center;
+  padding:28px 12px;
+  background:linear-gradient(135deg,#ed174c,#6418b5);
+}
+header h1{margin:0;font-size:30px}
+header p{color:#eee}
+main{padding:16px;max-width:600px;margin:auto}
+.card{
+  background:#1d2030;
+  border:1px solid #34394d;
+  border-radius:15px;
+  padding:17px;
+  margin-bottom:15px;
+}
+h2{color:#ff4778;font-size:20px}
+label{display:block;margin:14px 0 7px}
+input[type=range]{width:100%;accent-color:#ff3470}
+.value{color:#48d9ff;font-weight:bold}
+button{
+  width:100%;
+  border:0;
+  border-radius:10px;
+  padding:13px;
+  background:#ed2763;
+  color:white;
+  font-size:16px;
+  font-weight:bold;
+  margin-top:12px;
+}
+.tip{color:#c8cbd8;line-height:1.8}
+footer{text-align:center;color:#9297aa;padding:20px}
+</style>
+</head>
+<body>
+
+<header>
+  <h1>🔥 ABDOU FF 🔥</h1>
+  <p>إعداداتك نحو تصويب أفضل</p>
+</header>
+
+<main>
+  <section class="card">
+    <h2>🎯 حساسية التصويب</h2>
+
+    <label>عام: <span class="value" id="v1">95</span></label>
+    <input type="range" min="0" max="200" value="95"
+    oninput="v1.textContent=this.value">
+
+    <label>النقطة الحمراء: <span class="value" id="v2">90</span></label>
+    <input type="range" min="0" max="200" value="90"
+    oninput="v2.textContent=this.value">
+
+    <label>منظار 2X: <span class="value" id="v3">85</span></label>
+    <input type="range" min="0" max="200" value="85"
+    oninput="v3.textContent=this.value">
+
+    <label>منظار 4X: <span class="value" id="v4">80</span></label>
+    <input type="range" min="0" max="200" value="80"
+    oninput="v4.textContent=this.value">
+
+    <button onclick="alert('تم اختيار إعداداتك!')">
+      حفظ الإعدادات
+    </button>
+  </section>
+
+  <section class="card">
+    <h2>🎮 نصائح HUD</h2>
+    <p class="tip">
+      • اختر أماكن أزرار مريحة لأصابعك.<br>
+      • جرّب حجم زر الإطلاق في ساحة التدريب.<br>
+      • استعمل إعدادات تناسب طريقة لعبك.
+    </p>
+  </section>
+
+  <section class="card">
+    <h2>⚡ نصائح الهيد شوت</h2>
+    <p class="tip">
+      • تدرب على سحب التصويب للأعلى.<br>
+      • حافظ على ثبات التصويب.<br>
+      • جرّب الحساسية وعدّلها حسب راحتك.
+    </p>
+  </section>
+</main>
+
+<footer>ABDOU FF © 2026</footer>
+
+</body>
+</html>
